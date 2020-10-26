@@ -1,8 +1,8 @@
 {
   "name": "@edx/frontend-component-header",
   "version": "1.0.0-semantically-released",
-  "description": "The standard header for Open edX",
-  "main": "dist/index.js",
+  "description": "Fork of The standard header for Open edX",
+  "main": "src/index.jsx",
   "publishConfig": {
     "access": "public"
   },
@@ -15,7 +15,7 @@
     "test": "fedx-scripts jest --coverage"
   },
   "files": [
-    "/dist"
+    "/src"
   ],
   "husky": {
     "hooks": {
