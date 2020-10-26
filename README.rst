@@ -19,3 +19,9 @@ This is the standard Open edX header for use in React applications. It has two e
    :target: @edx/frontend-component-header
 .. |semantic-release| image:: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
    :target: https://github.com/semantic-release/semantic-release
+
+## Eol Branding Changes
+
+This fork provides basic changes for the branding including the logo.
+
+Language default is a work in progress.
