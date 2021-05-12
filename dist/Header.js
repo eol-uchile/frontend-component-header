@@ -18,12 +18,12 @@ function Header(_ref) {
 
   var mainMenu = [{
     type: "item",
-    href: "".concat(config.LMS_BASE_URL, "/dashboard"),
+    href: "/courses",
     content: intl.formatMessage(messages["header.links.courses"])
   }];
   var userMenu = authenticatedUser === null ? [] : [{
     type: "item",
-    href: "".concat(config.LMS_BASE_URL, "/dashboard"),
+    href: "/courses",
     content: intl.formatMessage(messages["header.user.menu.dashboard"])
   }, {
     type: "item",
@@ -51,7 +51,7 @@ function Header(_ref) {
     logo: LogoPNG,
     logoAltText: config.SITE_NAME,
     siteName: config.SITE_NAME,
-    logoDestination: "".concat(config.LMS_BASE_URL, "/dashboard"),
+    logoDestination: "/courses",
     loggedIn: authenticatedUser !== null,
     username: authenticatedUser !== null ? authenticatedUser.username : null,
     avatar: authenticatedUser !== null ? authenticatedUser.avatar : null,
