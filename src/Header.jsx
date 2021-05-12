@@ -22,7 +22,7 @@ function Header({ intl }) {
   const mainMenu = [
     {
       type: "item",
-      href: `${config.LMS_BASE_URL}/dashboard`,
+      href: `/courses`,
       content: intl.formatMessage(messages["header.links.courses"]),
     },
   ];
@@ -33,7 +33,7 @@ function Header({ intl }) {
       : [
           {
             type: "item",
-            href: `${config.LMS_BASE_URL}/dashboard`,
+            href: `/courses`,
             content: intl.formatMessage(messages["header.user.menu.dashboard"]),
           },
           {
@@ -72,7 +72,7 @@ function Header({ intl }) {
     logo: LogoPNG,
     logoAltText: config.SITE_NAME,
     siteName: config.SITE_NAME,
-    logoDestination: `${config.LMS_BASE_URL}/dashboard`,
+    logoDestination: `/courses`,
     loggedIn: authenticatedUser !== null,
     username: authenticatedUser !== null ? authenticatedUser.username : null,
     avatar: authenticatedUser !== null ? authenticatedUser.avatar : null,
